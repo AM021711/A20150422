@@ -7,3 +7,11 @@
 		new C().avgFunc(x, y);
 	}
 }
+
+class C {
+	public void avgFunc(int a,int b){
+		int c;
+		c=(a+b)/2;
+		System.out.println(c);
+	}
+}
