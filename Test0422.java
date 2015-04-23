@@ -9,7 +9,7 @@
 }
 
 class A { 
-	public void minFunc(x,y) {
+	public void minFunc(int x,int y) {
 		if (y<x) {
 			System.out.println (y);
 		}
