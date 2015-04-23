@@ -7,7 +7,6 @@
 		new C().avgFunc(x, y);
 	}
 }
-
 class A { 
 	public void minFunc(int x,int y) {
 		if (y<x) {
@@ -18,4 +17,12 @@ class A {
 			System.out.println (x);
 		}
 	}
+}
+class B{
+	public void maxFunc(int x,int y){
+	
+	if(x>y)
+	System.out.println(x);
+	if(y>x)
+	System.out.println(y);
 }
