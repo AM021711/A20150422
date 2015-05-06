@@ -8,7 +8,7 @@
 	}
 }
 class B{
-	public void maxFunc(x, y){
+	public void maxFunc(int x,int y){
 	
 	if(x>y)
 	System.out.println(x);
